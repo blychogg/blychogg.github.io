@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Noto Sans Soyombo
+- Font Author: Copyright 2019 Google LLC. All Rights Reserved.
+- Font Source: http://fonts.gstatic.com/s/notosanssoyombo/v15/RWmSoL-Y6-8q5LTtXs6MF6q7xsxgY0FrIFOcK25W.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
