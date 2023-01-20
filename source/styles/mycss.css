@@ -1,57 +1,58 @@
 html {
-    overflow-x: hidden;
+	overflow-x: hidden;
 }
 
 body {
-    background: linear-gradient(0deg, #39526B 0%, #fff 100%);
+	background: linear-gradient(0deg, #39526B 0%, rgb(255, 255, 255) 100%);
+	background-position-y: 1em;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
 }
 
 .nav-link {
-    color: rgb(0, 0, 0);
+	color: rgb(0, 0, 0);
 }
 
 .navbar-nav .nav-link.active {
-    color: rgb(47, 0, 255);
+	color: rgb(47, 0, 255);
 }
 
 .navbar-brand img {
-    width: 35px;
+	width: 35px;
 }
 
-.navbar-toggler {
-    background-color: #fff;
-}
 
 .sidebar {
-    padding-left: 2em;
-    padding-right: 3em;
+	padding-left: 2em;
+	padding-right: 3em;
 }
 
 .card a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .slide-text {
-    font-size: 35px;
-    margin: auto auto;
+	font-size: 35px;
+	margin: auto auto;
 }
 
 .call-anim {
-    animation: myAnim 4s ease 0s infinite normal forwards;
+	animation: myAnim 4s ease 0s infinite normal forwards;
 }
 
 footer .container-fluid {
-    margin-top: 20px;
+	margin-top: 20px;
 }
 
 .footer-text {
-    margin: auto auto;
-    font-size: 20px;
-    color: rgb(166, 166, 223);
+	margin: auto auto;
+	font-size: 20px;
+	color: rgb(166, 166, 223);
 }
 
 .tg {
-    margin-top: 20px;
+	margin-top: 20px;
 }
 
 @keyframes myAnim {
@@ -85,7 +86,7 @@ footer .container-fluid {
 }
 
 @media (max-width: 755px) {
-    .carousel-indicators {
-        display: none;
-    }
+	.carousel-indicators {
+		display: none;
+	}
 }

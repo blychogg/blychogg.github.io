@@ -16,10 +16,6 @@
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="/"><img src="source/files/logo.png"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
@@ -44,7 +40,10 @@
                         <div class="col-lg-4 col-md-6 mt-4">
                             <!-- lg-4: большой экран, 4 доли экрана на элемент; md-6: экран планшета, 6 долей экрана на элемент -->
                             <div class="card">
-                                <a href="#"><img src="source/images/laptop.png" class="card-img-top" alt="..."></a>
+                                <img src="source/images/laptop.png" class="card-img-top" alt="..." usemap="#map">
+                                <map name="map">
+                                    <area shape="rect" coords="34, 44, 250, 300" alt="cop" href="#">
+                                </map>
                                 <div class="card-body">
                                     <h5 class="card-title"><a href="#">Laptops</a></h5>
                                     <p class="card-text"><a href="#">Some quick example text to build on the card title
